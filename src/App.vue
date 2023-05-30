@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import Comp from './views/Comp.vue';
+import HelloWorld from './views/HelloWorld.vue'
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <Comp  msg="dddd + aaa" ></Comp>
 </template>
 
 <style scoped lang="sass">
